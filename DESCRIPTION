@@ -1,0 +1,19 @@
+Package: JPMAT
+Title: Joint Modeling of Paired Metagenomic and Metatranscriptomic Counts
+Version: 0.0.0.9000
+Authors@R: 
+    person("Yanan", "Zhao", , "yanan.zhao@nyulangone.org", role = c("aut", "cre"))
+Description: Joint analysis of paired metagenomic and metatranscriptomic
+    count data to assess differential genomic abundance, transcriptional
+    activity, and transcript expression.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports: 
+    doRNG,
+    foreach,
+    glmmTMB,
+    MASS,
+    stats
